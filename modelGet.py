@@ -7,5 +7,5 @@ if n == 1:
 
 print(sys.argv[1])
 
-res = openai.FineTuningJob.retrieve(sys.argv[1])
+res = openai.Model.retrieve(sys.argv[1])
 print(res)
