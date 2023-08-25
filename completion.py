@@ -5,7 +5,8 @@ if n == 1:
     print("user content required")
     exit()
 
-print(sys.argv[1])
+print("model_id==>",sys.argv[1])
+print("user_content==>",sys.argv[2])
 
 
 completion = openai.ChatCompletion.create(
